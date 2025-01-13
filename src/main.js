@@ -1,11 +1,12 @@
 // Code Practice: Making a Scene
-// Name:
-// Date: 
+// Name: Peter Dobbins
+// Date: 13/1/25
 
-"use strict"
+"use strict";
 
 let config = {
-    type: Phaser.AUTO
-}
+	type: Phaser.AUTO,
+	scene: [MainMenu, Play],
+};
 
-let game = new Phaser.Game(config)
+let game = new Phaser.Game(config);
